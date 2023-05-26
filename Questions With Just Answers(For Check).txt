@@ -1,0 +1,52 @@
+-- fetch all value from data1 table => Total 640 Row
+-- fetch all value from data2 table => Total 640 Row
+-- find number of rows into our dataset => 640, 640
+-- find dataset for jharkhand and bihar => 62, 59
+-- find population of India => 1210854977
+-- find avg growth for india => 19.25
+-- find avg growth for for each state => Total 35 Row
+-- find avg sex ratio for india => 945
+-- find avg sex ratio for each state order the table highest to lowest value => Total 35 Row
+-- find avg literacy rate => 72.31
+-- find avg literacy rate for each state where average literacy rate greater then 90 => Total 2 Row
+-- find top 3 state showing highest growth ratio => Total 3 Row
+-- find bottom 3 state showing lowest sex ratio => Total 3 Row
+-- top and bottom 3 states in literacy state, solve this two different way => Total 6 Row
+-- find the states starting with letter a or starting with latter b => Total 5 Row
+-- find the states starting with letter a or ending with latter m => Total 6 Row
+
+-- find total males and females from the dataset based on states => Total 33 Row
+
+female/male = sex_ratio -----1
+female+male = population ----2
+female = population-male
+population-male/male = sex_ratio
+population-male = sex_ratio*male
+population = sex_ration*male + male
+population = male(sex_ration+1)
+male = population/(sex_ratio+1)
+female = population - population/(sex_ratio+1)
+       = population(1-1/(sex_ratio+1))
+       = (population*sex_ratio)/sex_ratio+1
+
+-- find total literate, and illiterate people based on state => Total 33 Row
+
+literacy_ratio = total_literate_people/population
+total_literate_people = literacy_ratio*population
+total_illiterate_people = (1-literacy_ratio)*population
+
+-- find population in previous censusa and current census based on state => Total 33 Row
+
+previous_census+growth*previous_census = population
+previous_census = population/(1+growth)
+
+-- find the total population in previous censusa and current census based on state => 1005585073, 1183963720
+-- find previous censusa area per person and current census area per person based on state 
+-- area, previous census, previous census per person area, current census, current census per person area => 3166620	1005585073	0.0031	1183963720	0.0027
+-- find the top 3 districts from each state with highest literacy rate => Total 97 Row
+
+
+
+
+ 
+

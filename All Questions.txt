@@ -1,0 +1,28 @@
+-- fetch all value from data1 table
+-- fetch all value from data2 table 
+-- find number of rows into our dataset
+-- find dataset for jharkhand and bihar 
+-- find population of India 
+-- find avg growth for india 
+-- find avg growth for for each state 
+-- find avg sex ratio for india 
+-- find avg sex ratio for each state order the table highest to lowest value 
+-- find avg literacy rate
+-- find avg literacy rate for each state where average literacy rate greater then 90 
+-- find top 3 state showing highest growth ratio 
+-- find bottom 3 state showing lowest sex ratio 
+-- top and bottom 3 states in literacy state 
+-- find the states starting with letter a or starting with latter b 
+-- find the states starting with letter a or ending with latter m 
+-- find total males and females from the dataset based on states
+-- find total literate, and illiterate people based on state
+-- find population in previous censusa and current census based on state
+-- find the total population in previous censusa and current census based on state
+-- find previous censusa area per person and current census area per person based on state
+-- find the top 3 districts from each state with highest literacy rate
+
+
+
+
+ 
+
